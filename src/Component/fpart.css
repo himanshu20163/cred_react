@@ -1,0 +1,26 @@
+.rewards{
+    padding:10% 0%;
+    box-sizing: border-box;
+    background-color: black;
+    height:50%;
+    width:100%;
+}
+.rewards h1{
+    color:white;
+    font-size: 82px;
+}
+.rewards h5{
+    color:white;
+    font-size: 24px;
+}
+button{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+    height: 20%;
+    width: 20%;
+}

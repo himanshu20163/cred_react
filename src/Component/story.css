@@ -1,0 +1,74 @@
+.story{
+    padding-top: 5rem;
+    height:auto;
+    width:100%;
+    box-sizing: border-box;  
+}
+.first_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    padding: 5rem;
+    width:100%;
+    background-image: url('https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg');
+    display: flex;
+}
+.first_part h1{
+    font-size: 44px;
+    color:white;
+    width:200rem;
+}
+.first_part p{
+    color:white;
+    text-align: justify;
+    width:150rem;
+}
+.second_part{
+    height: 100vh;
+    width:100%;
+    background-color: black;
+    display: flex;
+}
+.second_part .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width:50%;
+}
+.second_part .app h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    color:rgb(215, 215, 215);
+}
+.second_part .app button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.second_part .playstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width:50%;
+}
+.second_part .playstore h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    color:rgb(220, 219, 219);
+}
+.second_part .playstore button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
