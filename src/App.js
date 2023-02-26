@@ -61,10 +61,8 @@ CRED Gem Rewards:
 
 - keep a realtime check on your credit score" />
 <Main_Footer />
-
       </div>
       
-
     </div>
   );
 }
