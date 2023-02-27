@@ -7,7 +7,7 @@ import Cards  from './Component/Rewardscards';
 import Brand from './Component/Brand';
 import Banner from './Component/Banner';
 import Story from './Component/Story';
-import {Footer,Main_Footer}  from './Component/Footer';
+import {Footer,Main_Footer,Lastfooter}  from './Component/Footer';
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       btn_title="Become a member"
       />
       <Story />
-      <div className='app_footer'>
+      <div className='app_footer' style={{marginTop:"-5rem",paddingBottom:"5rem"}}>
       <Footer heading="about CRED" para="CRED is a members only credit card bill payment platform that rewards its members for clearing their credit card bills on time. CRED members get access to exclusive rewards and experiences from premier brands upon clearing their credit card bills on CRED."/>
       <Footer heading="how does CRED reward their users?" para="CRED partners with the best premier and luxury brands to bring you an unmatched experience at the end of every credit card bill payment cycle."/>
       <Footer heading="how to earn rewards on CRED?" para="members can earn rewards in two different ways. CRED coins & gems.
@@ -61,6 +61,7 @@ CRED Gem Rewards:
 
 - keep a realtime check on your credit score" />
 <Main_Footer />
+<Lastfooter />
       </div>
       
     </div>

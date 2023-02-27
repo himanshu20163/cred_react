@@ -6,14 +6,41 @@
     width:100%;
 }
 .content{
-    padding-bottom: 10%;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8%;
     height: 100vh;
    width: 100%;
    background-size: cover;
 }
+.content h2 {
+    color:white;
+    text-align: left;
+    width:50%;
+    font-size: 55px;
+    margin-left: 10rem;
+}
+.content h4{
+    color:white;
+    text-align: left;
+    width:50%;
+    font-size: 35px;
+    margin-left: 10rem;
+}
+.content p{
+    color:white;
+    font-weight: bold;
+    text-align: left;
+    width:40%;
+    font-size: 15px;
+    margin-left: 10rem;
+}
 .erwds{ 
+    color:white;
+    margin-left: 10rem;
     height: 50px;
-    margin-right:39rem;
     font-size:14px;
     color:black;
     width:15%;
